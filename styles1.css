@@ -1,0 +1,106 @@
+/* Common styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #73a5ff, #5477f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles for both login and signup pages */
+.login-container, .signup-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo styles for both pages */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the contents horizontally */
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #5477f5;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Apply the new font here */
+    margin-right: 10px; /* Space between text and logo */
+}
+
+/* Logo image styles */
+.logo-img {
+    max-width: 100px; /* Adjust based on your logo size */
+    height: auto;
+}
+
+/* Form heading styles for both pages */
+.login-form h2, .signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input group styles for both pages */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styles for signup page */
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #5477f5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #3a55d5;
+}
+
+/* Link styles for login page */
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link p {
+    margin: 0;
+    color: #333;
+}
+
+.login-link a {
+    color: #5477f5;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

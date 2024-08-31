@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip My Trip - Flights</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="flightstyles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Trip My Trip</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Flights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hotels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Route Planner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <!-- Tabs -->
+        <div class="tabs mb-4">
+            <div class="tab active">Flights</div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form bg-light p-4 rounded shadow-sm">
+            <div class="trip-type mb-3">
+                <label><input type="radio" name="trip" checked> One Way</label>
+                <label><input type="radio" name="trip"> Round Trip</label>
+                <label><input type="radio" name="trip"> Multi City</label>
+            </div>
+
+            <div class="location-inputs d-flex justify-content-between mb-3">
+                <div class="location flex-fill mr-2">
+                    <label for="from">From</label>
+                    <input type="text" id="from" class="form-control" placeholder="Hyderabad">
+                </div>
+                <div class="swap d-flex align-items-center justify-content-center mx-2">⇆</div>
+                <div class="location flex-fill ml-2">
+                    <label for="to">To</label>
+                    <input type="text" id="to" class="form-control" placeholder="Bengaluru">
+                </div>
+            </div>
+
+            <div class="date-inputs d-flex justify-content-between mb-3">
+                <div>
+                    <label for="departure">Departure</label>
+                    <input type="date" id="departure" class="form-control" value="2024-09-04">
+                </div>
+                <div>
+                    <label for="return">Return</label>
+                    <input type="date" id="return" class="form-control" value="2024-09-30">
+                </div>
+            </div>
+
+            <div class="travellers mb-3">
+                <label for="travellers">Travellers & Class</label>
+                <input type="text" id="travellers" class="form-control" value="1 Traveller, Economy/Premium Economy">
+            </div>
+
+            <div class="fare-options mb-3">
+                <label><input type="radio" name="fare" checked> Regular</label>
+                <label><input type="radio" name="fare"> Student</label>
+                <label><input type="radio" name="fare"> Senior Citizen</label>
+                <label><input type="radio" name="fare"> Armed Forces</label>
+                <label><input type="radio" name="fare"> Doctor and Nurses</label>
+            </div>
+
+            <button class="btn btn-primary w-100">SEARCH</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap and Custom JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="flightscript.js"></script>
+</body>
+</html>

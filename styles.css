@@ -1,0 +1,122 @@
+/* Common styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #73a5ff, #5477f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles for login page */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the contents horizontally */
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #5477f5;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Apply the new font here */
+    margin-right: 10px; /* Space between text and logo */
+}
+
+/* Logo image styles */
+.logo-img {
+    max-width: 100px; /* Adjust based on your logo size */
+    height: auto;
+}
+
+/* Form heading styles for login page */
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Forgot password link styles */
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #5477f5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles for login page */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #5477f5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #3a55d5;
+}
+
+/* Signup link styles */
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link p {
+    margin: 0;
+    color: #333;
+}
+
+.signup-link a {
+    color: #5477f5;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
